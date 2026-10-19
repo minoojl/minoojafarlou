@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Minoo Jafarlou — About Me</title>
+
+  <!-- Use your global stylesheet (gradient + frosted rail) -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+  .hero {
+    display:flex;
+    gap:16px;
+    align-items:center;
+    margin-bottom:16px;
+  }
+  .hero img {
+    width:25%;
+    height:auto;
+    object-fit:contain;
+    border-radius:0;
+    filter: grayscale(100%); /* ✅ makes the image black & white */
+  }
+  .muted {
+    color:var(--muted);
+  }
+</style>
+
+</head>
+<body>
+  <div class="shell">
+    <!-- Sidebar (reusable across all pages) -->
+    <aside class="rail">
+      <h3>Works</h3>
+
+      <div class="group">
+        <div>Deep Learning</div>
+        <ul>
+          <li><a href="proj_3d_anomaly.html">3D Anomaly Detection</a></li>
+          <li><a href="proj_energy_ood.html">Multi-Modal Out-of-Distribution Detection</a></li>
+          <li><a href="proj_UQ-Deep.html">Uncertainty Quantification</a></li>
+        </ul>
+      </div>
+
+      <div class="group">
+        <div>Core Machine Learning &amp; NLP Systems</div>
+        <ul>
+          <li><a href="proj_grad_eff.html">Efficient Gradient Computation</a></li>
+          <li><a href="SemiSent_Project.html">Semi-Supervised Sentiment Learning</a></li>
+          <li><a href="proj_DistillED.html">Adversarially-Distilled Event Detection</a></li>
+        </ul>
+      </div>
+      
+      <div class="group">
+        <div>Multimodal Learning </div>
+        <ul>
+          <li><a href="proj_brain_connectivity.html">Brain Connectivity Analysis</a></li>
+          <li><a href="proj_brainfusion.html">BrainFusion: Multimodal Causality</a></li>
+          <li><a href="proj_schizo_pipeline.html">Schizophrenia Diagnosis Pipeline</a></li>
+        </ul>
+      </div>
+
+      <div class="group">
+        <div>About</div>
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <main>
+      <div class="page">
+        
+
+        <header class="hero">
+          <img src="img.png">
+          <div>
+            <h1>Minoo Jafarlou</h1>
+            <div class="muted"> </div>
+          </div>
+        </header>
+
+        <section id="Info_About" class="section">
+          <h2>About</h2>
+          <p>
+          Currently pursuing a Ph.D. in Computer Science at Georgia State University, Atlanta, GA, building on a strong foundation with a B.Sc. in Computer Engineering (Software Engineering) and an M.Sc. in Computer Science. My research explores the frontiers of Machine Learning, Multimodal Learning, Reliable and Efficenit AI.
+          </p>
+
+        </section>
+  
+
+        <section id="Info_Publications" class="section">
+          <h2>Publications</h2>
+
+          <p>
+            <strong>Reducing Labeling Costs in Sentiment Analysis via Semi-Supervised Learning</strong><br>
+            Minoo Jafarlou, Mario M. Kubek<br>
+            <em>8th International Conference on Natural Language Processing and Information Retrieval (NLPIR 2024)</em>, October 2024.<br>
+            <a href="https://dl.acm.org/doi/pdf/10.1145/3711542.3711570" target="_blank" rel="noopener">[PDF]</a>
+          </p>
+
+          <p>
+            <strong>Improving Fuzzy-Logic Based Map-Matching Method with Trajectory Stay-Point Detection</strong><br>
+            Minoo Jafarlou, Omid Mahdi Ebadati E., and Hassan Naderi<br>
+            <em>Lecture Notes in Engineering and Computer Science: Proceedings of the International MultiConference of Engineers and Computer Scientists (IMECS 2023)</em>, July 2023.<br>
+            <a href="https://www.iaeng.org/publication/IMECS2023/IMECS2023_pp48-57.pdf" target="_blank" rel="noopener">[PDF]</a>
+          </p>
+        </section>
+
+        <section class="section research-experience">
+          <h2>Research Experience</h2>
+
+          <p>
+            <strong>Researcher</strong>, Department of Computer Science, Georgia State University
+            <span style="float:right;font-style:italic;"> 2024 – Present</span><br>
+            Conducting research in trustworthy multimodal ML.          </p>
+
+          <p>
+            <strong>Research Assistant</strong>, TReNDS Center (GSU / Georgia Tech / Emory)
+            <span style="float:right;font-style:italic;">2022 –  2024</span><br>
+            Contributed to multimodal causality research integrating MEG and fMRI neuroimaging with clinical variables for brain connectivity and disorder analysis, including preprocessing and quality control of large-scale neuroimaging datasets.
+          </p>
+
+        </section>
+
+        <section class="section">
+          <h2>Teaching and Supervision</h2>
+
+          <p>
+            <strong>Instructor of Record</strong>, Fundamentals of Data Science (CSC 4780/6780, DSCI 4780) and Principles of Computer Science (CSC 1301)
+            <span style="float:right;font-style:italic;">2026</span><br>
+            Department of Computer Science, Georgia State University
+          </p>
+
+          <p>
+            <strong>Instructor of Record</strong>, Principles of Computer Science Lab (CSC 1301L)
+            <span style="float:right;font-style:italic;">2025</span><br>
+            Department of Computer Science, Georgia State University
+          </p>
+
+          <p>
+            <strong>Teaching Assistant</strong>, Deep Learning (CSC 8851)
+            <span style="float:right;font-style:italic;">2024</span><br>
+            Department of Computer Science, Georgia State University
+          </p>
+
+          <p>
+            <strong>Teaching</strong>, Machine Learning, Databases, and Operating Systems
+            <span style="float:right;font-style:italic;">2019 – 2021</span>
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>Professional Service</h2>
+
+          <p>
+            <strong>Reviewer,</strong>
+            <a href="https://ml4physicalsciences.github.io/2025/" target="_blank" rel="noopener">
+              <em>Machine Learning and the Physical Sciences (ML4PS) Workshop, NeurIPS 2025-2026</em>
+            </a>
+          </p>
+
+          <p class="entry">
+            <strong>Reviewer,</strong>
+            <a href="https://www.nlpir.net/committees.html" target="_blank" rel="noopener">
+              <em>International Conference on Natural Language Processing and Information Retrieval, 2024-2026</em>
+            </a>
+          </p>
+
+          <p>
+            <strong>Reviewer,</strong>
+            <em>Automatic Control and Computer Science Journal</em>
+          </p>
+
+          <p>
+            <strong>Judge,</strong>
+            <em>HackHERS 2024-2025, Girls Who Code at Georgia State University</em>
+          </p>
+        </section>
+
+        <section id="Info_Contact" class="section">
+          <h2>Contact</h2>
+          <p><strong>Address:</strong> One Park Place, Atlanta, GA 30303, United States</p>
+          <p></p>
+          <p>
+            <a href="https://scholar.google.com/citations?user=HKke9_EAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> ·
+            <a href="https://www.linkedin.com/in/minoojafarlou/" target="_blank" rel="noopener">LinkedIn</a> ·
+            <a href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+          </p>
+        </section>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
